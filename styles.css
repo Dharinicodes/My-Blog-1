@@ -1,0 +1,87 @@
+/** typography **/
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+:root {
+  --dark-color: #ffcb9a;
+  --light-color: #d9b08c;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+hr {
+  margin: 2rem orem;
+}
+
+/** container **/
+
+.container {
+  padding: 0rem 1rem;
+  padding-top: 4rem;
+}
+
+/** link **/
+
+.link {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+/** list **/
+
+.list-non-bullet {
+  list-style: none;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+
+/** section **/
+
+.ow {
+  background-color: var(--dark-color);
+}
+
+.section {
+  background-color: var(--light-color);
+  padding: 2rem;
+}
+
+/** footer **/
+
+.footer {
+  background-color: var(--primary-color);
+  padding: 2rem 1rem;
+  text-align: center;
+  color: white;
+  border-top-right-radius: 1rem;
+}
+
+.footer .link {
+  color: white;
+}
+
+.footer .footer-header {
+  font-weight: bold;
+  font-size: large;
+}
+
+.footer ul {
+  padding-inline-start: 0px;
+}
+
+.footer .git-img {
+  max-width: 2rem;
+  display: inline;
+  margin: auto;
+}
+
+.footer .linkedin-img {
+  max-width: 2rem;
+  display: inline;
+  margin: auto;
+}
