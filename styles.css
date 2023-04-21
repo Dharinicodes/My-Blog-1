@@ -51,18 +51,25 @@ hr {
   padding: 2rem;
 }
 
+img {
+  max-width: 350px;
+  display: block;
+  margin: auto;
+  image-resolution: 1080p;
+}
+
 /** footer **/
 
 .footer {
-  background-color: var(--primary-color);
+  background-color: var(--dark-color);
   padding: 2rem 1rem;
   text-align: center;
-  color: white;
+  color: black;
   border-top-right-radius: 1rem;
 }
 
 .footer .link {
-  color: white;
+  color: black;
 }
 
 .footer .footer-header {
