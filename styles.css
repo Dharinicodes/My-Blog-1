@@ -2,10 +2,6 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 
-:root {
-    background: radial-gradient(circle at top, #b7eee2 , #a06fc7)
-}
-
 body {
   font-family: "Raleway", sans-serif;
   margin: 0px;
@@ -17,8 +13,9 @@ hr {
 
 .title {
   text-align: center;
+  font-size: x-large;
   padding: 3rem;
-  background-color: var(--light-color);
+  background: linear-gradient(90deg, #fed7aa 0%, #fde68a 100%);
 }
 
 /** container **/
@@ -49,8 +46,8 @@ hr {
 /** section **/
 
 .section {
-  background-color: var(--dark-color);
   padding: 1rem;
+  background-color: white;
 }
 
 img {
@@ -63,7 +60,7 @@ img {
 /** footer **/
 
 .footer {
-  background-color: var(--primary-color);
+  background: linear-gradient(90deg, #fed7aa 0%, #fde68a 100%);
   padding: 2rem 1rem;
   text-align: center;
   color: black;
