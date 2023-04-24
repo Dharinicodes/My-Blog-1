@@ -21,8 +21,7 @@ hr {
 /** container **/
 
 .container {
-  padding: 0rem 1rem;
-  padding-top: 4rem;
+  padding: 1rem 1rem;
 }
 
 /** link **/
@@ -55,6 +54,7 @@ img {
   display: block;
   margin: auto;
   image-resolution: 1080p;
+  padding-top: 2rem;
 }
 
 /** footer **/
